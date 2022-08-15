@@ -1,0 +1,16 @@
+.Rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Coracao{
+    width: 0.8rem;
+}
+
+.Seta{
+    width: 2rem;
+    margin-left: 1rem;
+    z-index: 999;
+}

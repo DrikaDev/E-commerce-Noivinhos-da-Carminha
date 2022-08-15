@@ -1,0 +1,229 @@
+/* samsung */
+@media only screen and (min-width: 360px) and (max-width: 800px){
+    .Cabecalho{
+        flex-direction: column;
+        margin-bottom: 1rem;
+        background-position: top;
+        height: 100vh;
+        object-fit: cover;
+    }
+    
+    .Cabecalho__logo{
+        width: 10rem;
+        margin-left: 1rem;
+    }
+
+    .Cabecalho__lista{
+        display: block;
+        position: absolute;
+        width: 60%;
+        top: 50px;
+        right: 0px;
+        height: 0px;
+        background: white;
+        border-radius: 10px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+        color: black;
+        text-align: center;
+        line-height: 3rem;
+    }
+
+    #nav.active #menu{
+        height: 30vh;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .Cabecalho__menu{
+        flex-direction: column;
+        position: absolute;
+        display: block;
+        top: 1.5rem;
+    }
+
+    .Menu_hamburguer{
+        display: flex;
+        flex-direction: row;
+        width: 6rem;
+        position: absolute;
+        left: 17rem;
+    }
+
+    .Menu_hamburguer button{
+        display: block;
+        padding: .5rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .Menu_hamburguer img{
+        display: block;
+        width: 40px;
+    }
+
+    .Cabecalho__menu h1{
+        font-size: 5rem;
+        text-align: center;
+        position: absolute;
+        top: 8rem;
+        width: 100%;
+    }
+
+    .Cabecalho__menu h2{
+        text-align: center;
+        font-size: 2rem;
+        position: absolute;
+        top: 20rem;
+    }
+
+    .Sobre_a_artesa h2, .Topos_de_bolo h2, .Nossos_produtos h2, .Encomendas h2{
+        font-size: 3rem;
+    }
+
+    .Sobre_a_artesa--historia, .Topos_de_bolo--historia{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Topos_de_bolo--historia img{
+     margin-left: 15%;
+     margin-right: 15%;
+    }
+
+    .Topos_de_bolo h3, .Encomendas h3{
+        font-size: 1.5rem;
+    }
+
+    .Topos_de_bolo--fotosprodutos img{
+        width: 15rem;
+    }
+
+    .Encomendas svg{
+        width: 2rem;
+    }
+    
+    .Encomendas__lista{
+        margin: 1rem;
+    }    
+}
+
+/* iphone */
+@media only screen and (min-width: 412px) and (max-width: 780px){
+    @media only screen and (min-width: 360px) and (max-width: 800px){
+        .Cabecalho{
+            flex-direction: column;
+            margin-bottom: 1rem;
+            background-position: top;
+            height: 100vh;
+            object-fit: cover;
+        }
+        
+        .Cabecalho__logo{
+            width: 10rem;
+            margin-left: 1rem;
+        }
+    
+        .Cabecalho__lista{
+            display: block;
+            position: absolute;
+            width: 60%;
+            top: 50px;
+            right: 0px;
+            height: 0px;
+            background: white;
+            border-radius: 10px;
+            transition: .6s;
+            z-index: 1000;
+            visibility: hidden;
+            overflow-y: hidden;
+            color: black;
+            text-align: center;
+            line-height: 3rem;
+        }
+    
+        #nav.active #menu{
+            height: 30vh;
+            visibility: visible;
+            overflow-y: auto;
+        }
+    
+        .Cabecalho__menu{
+            flex-direction: column;
+            position: absolute;
+            display: block;
+            top: 1.5rem;
+        }
+    
+        .Menu_hamburguer{
+            display: flex;
+            flex-direction: row;
+            width: 6rem;
+            position: absolute;
+            left: 17rem;
+        }
+    
+        .Menu_hamburguer button{
+            display: block;
+            padding: .5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+        .Menu_hamburguer img{
+            display: block;
+            width: 40px;
+        }
+    
+        .Cabecalho__menu h1{
+            font-size: 5rem;
+            text-align: center;
+            position: absolute;
+            top: 8rem;
+            width: 100%;
+        }
+    
+        .Cabecalho__menu h2{
+            text-align: center;
+            font-size: 2rem;
+            position: absolute;
+            top: 20rem;
+        }
+    
+        .Sobre_a_artesa h2, .Topos_de_bolo h2, .Nossos_produtos h2, .Encomendas h2{
+            font-size: 3rem;
+        }
+    
+        .Sobre_a_artesa--historia, .Topos_de_bolo--historia{
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .Topos_de_bolo--historia img{
+         margin-left: 15%;
+         margin-right: 15%;
+        }
+    
+        .Topos_de_bolo h3, .Encomendas h3{
+            font-size: 1.5rem;
+        }
+    
+        .Topos_de_bolo--fotosprodutos img{
+            width: 15rem;
+        }
+    
+        .Encomendas svg{
+            width: 2rem;
+        }
+        
+        .Encomendas__lista{
+            margin: 1rem;
+        }    
+    }
+}

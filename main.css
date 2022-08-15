@@ -1,0 +1,101 @@
+.Sobre_a_artesa, .Topos_de_bolo, .Nossos_produtos, .Encomendas{
+    width: 100%;
+}
+
+.Sobre_a_artesa h2, .Topos_de_bolo h2, .Nossos_produtos h2, .Encomendas h2{
+    font-family: var(--titulos);
+    color: var(--cor-rosa);
+    font-size: 4rem;
+    font-weight: bolder;
+    text-shadow: 0 4px 4px black;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.Sobre_a_artesa--historia, .Topos_de_bolo--historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Sobre_a_artesa--historia img, .Topos_de_bolo--historia img{
+    width: 14rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 14px black;
+}
+
+.Sobre_a_artesa--historia p, .Topos_de_bolo--historia p, .Topos_de_bolo--fotosprodutos p{
+    font-family: var(--textos);
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+.Topos_de_bolo--historia figcaption{
+    font-family: var(--textos);
+    text-align: center;
+}
+
+.Topos_de_bolo h3, .Encomendas h3{
+    font-family: var(--textos);
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Topos_de_bolo--fotosprodutos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Topos_de_bolo--fotosprodutos img{
+    width: 20rem;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 1s all;
+    object-fit: contain;
+}
+
+.Topos_de_bolo--fotosprodutos img:hover{
+    transform: scale(1.1) rotate(-8deg);
+}
+
+.Encomendas svg{
+    width: 2.5rem;
+    transition: 1s all;
+}
+
+.Encomendas svg:hover{
+    transform: scale(1.2) rotate(5deg);
+}
+
+.Encomendas__lista{
+    margin: 1rem 5rem;
+}
+
+.Encomendas__lista svg{
+    width: 1rem;
+}
+
+.Encomendas__lista--item{
+    width: 100%;
+    font-family: var(--textos);
+    font-size: 1.3rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+
+
