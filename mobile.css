@@ -110,7 +110,11 @@
     
     .Encomendas__lista{
         margin: 1rem;
-    }    
+    }
+    
+    .Rodape{
+        flex-direction: column;
+    }
 }
 
 /* iphone */
@@ -225,5 +229,9 @@
     
     .Encomendas__lista{
         margin: 1rem;
-    }    
+    }
+    
+    .Rodape{
+        flex-direction: column;
+    }
 }
