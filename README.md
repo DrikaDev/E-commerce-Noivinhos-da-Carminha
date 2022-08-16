@@ -6,3 +6,6 @@ Foi feito uns questionamentos sobre os produtos da cliente, perguntei sobre sua 
 
 E tá aí o resultado! 💻❤️
 Eu to felizona e ela também tá! 😍
+
+![Desktop](https://user-images.githubusercontent.com/102387476/184781604-afe5e872-f992-4055-8f37-f5bd55a05f8c.jpg)
+![Mobile](https://user-images.githubusercontent.com/102387476/184781639-36dc86a8-b3bc-41c9-b634-c5ef5d4fc950.jpg)
